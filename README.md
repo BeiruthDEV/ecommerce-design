@@ -1,3 +1,19 @@
+<p align="center">
+  <img src="assets/logo-vassouras.png" alt="Universidade de Vassouras" width="400"/>
+</p>
+
+<h3 align="center">
+  Universidade de Vassouras  
+</h3>
+
+---
+
+### 📚 Curso: **Engenharia de Software**  
+### 🖥️ Disciplina: **Arquitetura e Projeto de Software**  
+### 👨‍🎓 Autor: **Matheus Beiruth**
+
+---
+
 # Mini E-commerce Design Patterns
 
 Aplicacao full stack simples para demonstrar Padroes de Projeto em Arquitetura de Software usando um dominio de e-commerce. O sistema lista produtos, monta carrinho, finaliza checkout, simula pagamentos, salva pedidos e dispara notificacoes quando o status do pedido muda.
