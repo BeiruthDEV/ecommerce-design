@@ -31,6 +31,7 @@ export function CartItem({ item, onQuantityChange, onRemove }: CartItemProps) {
         <div className="mt-4 flex flex-wrap items-center gap-3">
           <div className="flex items-center rounded-2xl border border-line bg-paper/70 p-1">
             <button
+              type="button"
               className="focus-ring grid h-9 w-9 place-items-center rounded-xl text-muted hover:bg-white hover:text-ink"
               onClick={() => onQuantityChange(item.product.id, -1)}
               aria-label="Diminuir quantidade"
@@ -39,6 +40,7 @@ export function CartItem({ item, onQuantityChange, onRemove }: CartItemProps) {
             </button>
             <span className="min-w-10 text-center text-sm font-bold">{item.quantity}</span>
             <button
+              type="button"
               className="focus-ring grid h-9 w-9 place-items-center rounded-xl text-muted hover:bg-white hover:text-ink"
               onClick={() => onQuantityChange(item.product.id, 1)}
               aria-label="Aumentar quantidade"
@@ -50,6 +52,7 @@ export function CartItem({ item, onQuantityChange, onRemove }: CartItemProps) {
             Max. {item.product.stock} unidades
           </span>
           <button
+            type="button"
             className="focus-ring ml-auto flex h-10 items-center gap-2 rounded-xl border border-red-100 bg-red-50 px-3 text-sm font-semibold text-red-700 hover:bg-red-100"
             onClick={() => onRemove(item.product.id)}
           >
